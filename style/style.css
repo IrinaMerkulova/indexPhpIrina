@@ -1,0 +1,66 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+/*-------------------------Tabelid--------------------------------------*/
+table{
+    width: 40%; /*40% ekraani laiust*/
+    height: 200px;
+    border: 1pt solid red;
+}
+td{
+    border: 1pt solid red;
+    text-align: center; /*выравнивание текста*/
+}
+/*1.rida 1.lahter*/
+#tabel1 tr:nth-child(1) td:nth-child(1){
+    background-color: olive;
+}
+/*1.rida 2.lahter*/
+#tabel1 tr:nth-child(1) td:nth-child(2){
+    background-color: gold;
+}
+
+/*2.rida 1.lahter*/
+#tabel1 tr:nth-child(2) td:nth-child(1){
+    background-color: green;
+}
+/*2.rida 2.lahter*/
+#tabel1 tr:nth-child(2) td:nth-child(2){
+    background-color: red;
+}
+/*-----------------------canvas---------------*/
+#window{
+
+    background-color: khaki;
+}
+input[type=button]{
+    padding: 20px 30px;
+    border: 0;
+    background-color: coral;
+    color: white;
+
+}
+input[type=button]:hover{
+    background-color: khaki;
+}
