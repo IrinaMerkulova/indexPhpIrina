@@ -64,3 +64,13 @@ input[type=button]{
 input[type=button]:hover{
     background-color: khaki;
 }
+/*-----------------------section------------------*/
+section{
+    border: 1pt solid grey;
+    margin: 3%;
+    width: 40%;
+
+    border-radius:60px;
+    padding:1%;
+
+}

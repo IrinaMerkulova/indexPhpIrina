@@ -5,6 +5,7 @@
         <li><a href="?veebileht=tabelid.php">HTML tabelid</a></li>
         <li><a href="?veebileht=lipud.php">Lipud</a></li>
         <li><a href="?veebileht=canvas.php">JS:Joonis</a></li>
-
+        <li><a href="?veebileht=tekstifunktsioonid.php">PHP:Tekstfunktsioon</a></li>
+        <li><a href="?veebileht=pildid.php">PHP:Töö piltidega</a></li>
     </ul>
 </nav>
