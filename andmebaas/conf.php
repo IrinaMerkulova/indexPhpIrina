@@ -11,4 +11,6 @@ $yhendus->set_charset("UTF8");
     id int PRIMARY KEY AUTO_INCREMENT,
     kuupaev date,
     temp int,
-    kirjeldus TEXT)*/
+    kirjeldus TEXT,
+    varv varchar(10)
+)*/

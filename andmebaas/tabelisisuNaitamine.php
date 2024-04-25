@@ -11,7 +11,7 @@ $kask->execute();
 <html>
 <head>
     <title>Tabeli 'ilm' sisu vaatamine</title>
-
+<!--    https://meet.google.com/huy-zvrz-yei-->
 </head>
 <body>
     <h1>Tabeli 'ilm' sisu vaatamine</h1>
@@ -27,10 +27,23 @@ $kask->execute();
         echo "<tr><td>".$id. "</td>";
         echo "<td>".htmlspecialchars($kuupaev). "</td>";
         echo "<td>". $temp.  "</td>";
-        echo "<td>".htmlspecialchars($kirjeldus). "</td></tr>";
+        echo "<td><img src='$kirjeldus' alt='pilt' width='100'></td></tr>";
     }
     ?>
     </table>
+<div>
+    <h2>Ülesanne: Matka leht</h2>
+    <ul>
+   <li> Lisa uue tabeli andmebaasi. (tabelinimi osalejad (id, nimi, telefon, pilt,  synniaeg)
+
+    <li> Loo leht kasutajate lisamiseks matkale:* nimi, telefon, pilt, synniaeg
+
+        <li> Samal lehel näita kes on matkale registreerinud koos pildiga. Info näidatakse tabelina.
+
+        <li>Lisa tabelisse osaleja kustutamine ja vanuse arvutamine(vanuse arvutamiseks kasuta vajaliku php kuupäeva funktsiooni - otsi siin - https://www.metshein.com/unit/php-ajafunktsioonid-ulesanne-8/)
+        </li>
+    </ul>
+</div>
 </body>
 </html>
 <?php

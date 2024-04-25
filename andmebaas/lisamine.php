@@ -1,5 +1,5 @@
 <?php
-require ('zoneconf.php');
+require ('conf.php');
 global $yhendus;
 //kustutamine
 
@@ -46,7 +46,7 @@ $kask->execute();
         echo "<tr><td>".$id. "</td>";
         echo "<td>".htmlspecialchars($kuupaev). "</td>";
         echo "<td>". $temp.  "</td>";
-        echo "<td>".htmlspecialchars($kirjeldus). "</td>";
+        echo "<td><img src='$kirjeldus' alt='pilt'></td>";
         echo "<td><a href='?kustuta=$id'>Kustuta</a></td></tr>";
     }
     ?>
