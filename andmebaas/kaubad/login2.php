@@ -28,7 +28,7 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
             $_SESSION['admin'] = true;
 
         }
-        header('Location: kaubaotsing.php');
+        header('Location: kaubahaldus.php');
         $yhendus->close();
     } else {
         echo "kasutaja või parool on vale";
@@ -53,3 +53,5 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
         </tr>
     </table>
 </form>
+ADmin, parool -...., tegevused - saab vaadata, lisada?
+Opilane, parool -...., tegevused - saab vaadata, lisada?
